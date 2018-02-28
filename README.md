@@ -154,15 +154,15 @@ For more options on CI settings checkout the [firebase-ci docs](https://github.c
 
 [npm-image]: https://img.shields.io/npm/v/barrista-firestore.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/barrista-firestore
-[travis-image]: https://img.shields.io/travis/jojolalpin@gmail.com/barrista-firestore/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/jojolalpin@gmail.com/barrista-firestore
-[daviddm-image]: https://img.shields.io/david/jojolalpin@gmail.com/barrista-firestore.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/jojolalpin@gmail.com/barrista-firestore
-[climate-image]: https://img.shields.io/codeclimate/github/jojolalpin@gmail.com/barrista-firestore.svg?style=flat-square
-[climate-url]: https://codeclimate.com/github/jojolalpin@gmail.com/barrista-firestore
-[coverage-image]: https://img.shields.io/codeclimate/coverage/github/jojolalpin@gmail.com/barrista-firestore.svg?style=flat-square
-[coverage-url]: https://codeclimate.com/github/jojolalpin@gmail.com/barrista-firestore
+[travis-image]: https://img.shields.io/travis/jojolalpin/barrista-firestore/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/jojolalpin/barrista-firestore
+[daviddm-image]: https://img.shields.io/david/jojolalpin/barrista-firestore.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/jojolalpin/barrista-firestore
+[climate-image]: https://img.shields.io/codeclimate/github/jojolalpin/barrista-firestore.svg?style=flat-square
+[climate-url]: https://codeclimate.com/github/jojolalpin/barrista-firestore
+[coverage-image]: https://img.shields.io/codeclimate/coverage/github/jojolalpin/barrista-firestore.svg?style=flat-square
+[coverage-url]: https://codeclimate.com/github/jojolalpin/barrista-firestore
 [license-image]: https://img.shields.io/npm/l/barrista-firestore.svg?style=flat-square
-[license-url]: https://github.com/jojolalpin@gmail.com/barrista-firestore/blob/master/LICENSE
+[license-url]: https://github.com/jojolalpin/barrista-firestore/blob/master/LICENSE
 [code-style-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [code-style-url]: http://standardjs.com/

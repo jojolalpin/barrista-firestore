@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router'
 import { paths } from 'constants'
 import classes from './Home.scss'
+
+import Map from 'components/Map'
+  
 const authWrapperUrl = 'https://github.com/mjrussell/redux-auth-wrapper'
 const reactRouterUrl = 'https://github.com/ReactTraining/react-router'
 
@@ -81,6 +84,9 @@ export const Home = () => (
           <p>Account Page</p>
         </Link>
       </div>
+    </div>
+    <div className="flex-row-center" style={{marginTop:50}}>
+      <Map />
     </div>
   </div>
 )
