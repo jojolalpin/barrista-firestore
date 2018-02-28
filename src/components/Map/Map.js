@@ -1,18 +1,18 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import classes from './Map.scss'
+// import PropTypes from 'prop-types'
+// import classes from './Map.scss'
 
 
-import ReactDOM from "react-dom";
-import { compose, withProps } from "recompose";
+// import ReactDOM from "react-dom"
+import { compose, withProps } from "recompose"
 import {
   withScriptjs,
   withGoogleMap,
   GoogleMap,
   Marker
-} from "react-google-maps";
+} from "react-google-maps"
 
-import {geolocated} from 'react-geolocated';
+import {geolocated} from 'react-geolocated'
 
 const Map = compose(
   withProps({
@@ -31,28 +31,28 @@ const Map = compose(
   withScriptjs,
   withGoogleMap
 )(props => {
-    console.log(props.coords);
-    var default_coords = { lat: 48.864716, lng: 2.349014 }; //paris
+    // console.log(props.coords);
+    var defaultCoords = { lat: 48.864716, lng: 2.349014 } // Paris
     if (props.coords) {
-      var user_coords = { lat: props.coords.latitude, lng: props.coords.longitude};
+      var userCoords = { lat: props.coords.latitude, lng: props.coords.longitude }
       return ( 
-        <GoogleMap defaultZoom={16} defaultCenter={user_coords}>
+        <GoogleMap defaultZoom={16} defaultCenter={userCoords}>
           {props.isMarkerShown && (
-            <Marker position={user_coords} />
+            <Marker position={userCoords} />
           )}
         </GoogleMap>
-      );
+      )
     } else {
       return (
-        <GoogleMap defaultZoom={16} defaultCenter={default_coords}>
+        <GoogleMap defaultZoom={16} defaultCenter={defaultCoords}>
           {props.isMarkerShown && (
-            <Marker position={default_coords} />
+            <Marker position={defaultCoords} />
           )}
         </GoogleMap>
-      );
+      )
     }
   }
-);
+)
 
 // export default Map
 export default geolocated({
@@ -60,4 +60,4 @@ export default geolocated({
     enableHighAccuracy: true,
   },
   userDecisionTimeout: 5000,
-})(Map);
+})(Map)
